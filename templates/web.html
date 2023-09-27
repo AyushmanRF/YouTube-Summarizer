@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarizer Web</title>
+</head>
+<body>
+    <h1>Welcome to the Summarizer Web</h1>
+    <p>This is the home page of the Summarizer web application.</p>
+    
+    <form action="/summarize" method="GET">
+        <label for="video_url">YouTube Video ID:</label>
+        <input type="text" id="video_url" name="video_url" required><br><br>
+
+        <label for="percent">Percentage of Text to Summarize:</label>
+        <input type="number" id="percent" name="percent" min="1" max="100" required><br><br>
+
+        <label for="choice">Summarization Method:</label>
+        <select id="choice" name="choice" required>
+            <option value="spacy">Spacy Summarization</option>
+            <option value="nltk">NLTK Summarization</option>
+            <option value="lsa">Sumy LSA Summarization</option>
+            <option value="luhn">Sumy Luhn Summarization</option>
+            <option value="text_rank">Sumy TextRank Summarization</option>
+        </select><br><br>
+
+        <input type="submit" value="Generate Summary">
+    </form>
+
+    <a href="/about">Learn more</a>
+</body>
+</html>

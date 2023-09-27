@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarizer API</title>
+</head>
+<body>
+    <h1>Summarizer API Documentation</h1>
+    <p>Summarizer provides an API to programmatically generate video summaries. You can use this API by making GET requests with specific parameters.</p>
+    <h2>API Endpoint</h2>
+    <p><strong>GET /summarize/</strong></p>
+    <h2>Parameters</h2>
+    <ul>
+        <li><strong>id</strong>: YouTube video ID (required)</li>
+        <li><strong>percent</strong>: Percentage of text to summarize (required)</li>
+        <li><strong>choice</strong>: Summarization method choice (required)</li>
+    </ul>
+    <h2>Example Usage</h2>
+    <p>Example URL: <code>/summarize/?id=VIDEO_ID&percent=50&choice=spacy-sum</code></p>
+    <a href="/">Back to Home</a>
+    <a href="/about">About Summarizer</a>
+</body>
+</html>
