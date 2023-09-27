@@ -35,9 +35,11 @@ Overall, this project provides a web interface for users to extract summaries fr
 
 ![Screenshot (165)](https://github.com/AyushmanRF/YouTube-Summarizer/assets/84237760/cd9ab965-b1bc-4793-8a12-e67ff5b6651e)
 
+
 2. **Choose the parameters** 
 
 ![Screenshot (166)](https://github.com/AyushmanRF/YouTube-Summarizer/assets/84237760/08a45306-a180-4369-a203-156bb9139070)
+
 
 3. **Result** 
 
